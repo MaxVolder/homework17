@@ -1,0 +1,66 @@
+/* styles.css */
+
+/* Стилі для іконок статі */
+.gender-icon {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  
+  .gender-icon.male:before {
+    content: "♂";
+    color: blue;
+  }
+  
+  .gender-icon.female:before {
+    content: "♀";
+    color: pink;
+  }
+  
+  /* Стилі для виводу контактів */
+  .contact {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .contact:last-child {
+    border-bottom: none;
+  }
+  
+  .contact .gender {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .contact .gender.male {
+    background-color: blue;
+  }
+  
+  .contact .gender.female {
+    background-color: pink;
+  }
+  
+  .contact .details {
+    flex: 1;
+  }
+  
+  .contact p {
+    margin: 0;
+  }
+  
+  .search-bar {
+    margin-bottom: 10px;
+  }
+  
+  .checkboxes {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .checkboxes label {
+    margin-right: 10px;
+  }
+  
