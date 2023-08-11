@@ -1,6 +1,4 @@
-/* styles.css */
 
-/* Стилі для іконок статі */
 .gender-icon {
     font-size: 18px;
     margin-left: 10px;
@@ -16,8 +14,7 @@
     color: pink;
   }
   
-  /* Стилі для виводу контактів */
-  .contact {
+   .contact {
     display: flex;
     align-items: center;
     padding: 10px;
@@ -45,6 +42,7 @@
   
   .contact .details {
     flex: 1;
+    text-align: center;
   }
   
   .contact p {
@@ -57,8 +55,9 @@
   
   .checkboxes {
     display: flex;
+    justify-content: center;
     margin-bottom: 10px;
-  }
+      }
   
   .checkboxes label {
     margin-right: 10px;
